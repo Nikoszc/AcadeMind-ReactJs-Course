@@ -1,1 +1,28 @@
+//We have two types of import and export in Javascript.
+// Default and Named(const)
+//Default example  ... file name = person.js
+const person = {
+  name:'Nikhil'
+}
+export default person;
 
+//Named export example .. file name = utility.js
+export const clean = () =>{...};
+export const baseData = 10;
+
+
+// While importing in another Js file as components we have to call these components.
+//file name =  app.js
+import person from './person.js';           // Default export.
+import prs from './person.js'
+
+import { clean } from './utility.js';       // Named export.
+import { baseData } from './utility.js';
+
+//we can't change the name of named export direcly as they are constant/fixed however, when calling them we can specify another name for these components.
+import { clean as cle } from './utility.js';
+import { baseData as base } from './utility.js';
+
+
+// To IMPORT EVER COMPONENT FROM A FILE WE DIRECTLY IMPORT * as bundled.
+import * as bundled from './utility.js';

@@ -1,0 +1,27 @@
+//Normally defining a function in JS
+function printMyName(name){
+  console.log(name)
+}
+
+printMyName('Max');
+
+
+//Defining using arrow function.
+//It makes use of 'this' keyword.
+
+const printMyname = (name)=> {
+  console.log(name)
+}
+printMyname('Nikhil')
+
+//Also we can remove the brackets from while defining a func when there is only one parameter.
+const/let printMyName = name => {
+    console.log(name)
+}
+printMyname('Nikhil')
+
+//for multiple parameters however, we have to use the brackets.
+const/let printMyName = (name,age) => {
+    console.log(name,age)
+}
+printMyname('Nikhil',21)

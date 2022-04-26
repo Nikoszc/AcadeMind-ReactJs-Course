@@ -25,3 +25,10 @@ const/let printMyName = (name,age) => {
     console.log(name,age)
 }
 printMyname('Nikhil',21)
+
+//for return type functions we do not need to specify brackets ()
+const multiply = (number) => {       //Normal way.
+  return number*2             
+}
+console.log(multiply(2)) 
+const multiply = (number) => number*2; //Shortcut way|| removed return && ()

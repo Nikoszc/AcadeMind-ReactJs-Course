@@ -1,0 +1,23 @@
+class Human{
+  constructor(){
+    
+    this.gender = 'Male';
+  }
+  printMyGender(){
+    console.log(this.gender);
+  }
+}
+
+class Person extends Human {           //Creating a class
+  constructor(){                       //defining a constructor for the class.
+    super();                           //Whenever we extend a class and its properties to another class we have to use the super keyword.
+    this.name = 'Nikhil';              //Defining the Property ... Properties are like variables that we attach to the classes and objects
+   
+  }
+  printMyName(){                      //METHODS are like functions attachted to classes and objects.
+    console.log(this.name);
+  }
+}
+const person = new Person();         //Assinging a new const/var to the previously defined class to class it's components.
+person.printMyName();
+person.printMyGender();

@@ -35,3 +35,4 @@ FOR METHODS -
 myMethod(){                                                                                         myMethod = () => {
  ....                                                                                                     ....
 }                                                                                                   };
+                                                                                              //Since we use an arrow function here there is no problem with 'this' keyword.

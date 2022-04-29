@@ -21,3 +21,17 @@ class Person extends Human {           //Creating a class
 const person = new Person();         //Assinging a new const/var to the previously defined class to class it's components.
 person.printMyName();
 person.printMyGender();
+
+*******************************************************************************************************************************************
+//With the new advanced ES7 Version of JavaScript we have some new keywords and ways to define things. For example-
+For constructor Function - 
+          ES6                                                                                               ES7
+constructor(){                                                                                      myProperty = 'value';
+  this.myProperty = 'value'                                                                     //In ES7 we can skip writing the constructor function call.
+}
+
+FOR METHODS -
+       ES6                                                                                                   ES7
+myMethod(){                                                                                         myMethod = () => {
+ ....                                                                                                     ....
+}                                                                                                   };

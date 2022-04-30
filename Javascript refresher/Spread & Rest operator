@@ -1,0 +1,14 @@
+//This operator is just   `...` 
+//Spread :  Used to split up array elements or objects properties.
+ example : const newArray = [...oldArray, 4, 5 ];
+           const newObject = { ...oldObject , newProp:5};
+           
+//Rest :  used to merge a list of function arguements in an array.
+  
+  ***************************************************************
+  
+  SPREAD OPERATOR EXAMPLE: 
+ const array = [1,2,3]
+console.log(array);                            //Output = 1,2,3
+const newArray = [...array, 4, 5];
+console.log(newArray);                         //Output = 1,2,3,4,5

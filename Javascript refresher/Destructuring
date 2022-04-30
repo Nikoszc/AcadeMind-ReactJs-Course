@@ -1,0 +1,9 @@
+//Destructuring is the process of esaily extracting elements from an array elements or objects functions.
+//it is different than the spread and rest operator as they take out all elements in an array while the destrcuturing takes out particular elements.
+
+Example : 
+const numbers = [1,2,3];
+[number1,number2] = numbers;
+console.log(number1,number2);   //Output = [1,2]
+[number1, , number3] = numbers;
+console.log(number1,number2);   //Output = [1,3]

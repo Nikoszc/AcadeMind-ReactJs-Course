@@ -1,0 +1,5 @@
+//Components are the essential building blocks of an website interface.
+//They can be viewed as each compnonet and further distribted into more components in a granular way.
+Ex - A navbar is a compnent, However , deepdiving we see that the search icon is a component, the logo , about , Contact etc. are each components in a component.
+//Reacts core focus is building websites using the fundamentals of components.
+They are widely used because of their reusability, sufficiency(easch component knows it tasks) and ease of building.

@@ -1,0 +1,7 @@
+
+
+Well, dependencies are those things that you need to install and import for doing specific things, for example,
+if you want to add routing(moving from one page to another which changes your URL) in your react project then 
+you need to install react-router-dom dependency by doing
+
+npm install react-router-dom
